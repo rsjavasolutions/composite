@@ -21,11 +21,11 @@ public abstract class Employee {
         return salary;
     }
 
-    public void add(Employee employee){
+    public void add(Employee employee) {
         throw new UnsupportedOperationException("Can't remove reportee by default");
     }
 
-    public void remove(Employee employee){
+    public void remove(Employee employee) {
         throw new UnsupportedOperationException("Can't remove reportee by default");
     }
 }
